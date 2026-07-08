@@ -1,3 +1,112 @@
 ﻿##~ running Plaxis2DXInput.exe 2025.1.3.5
 _setproperties "Title" "Example 01" "Company" "" "Comments" "" "UnitForce" "kN" "UnitLength" "m" "UnitTime" "day" "UnitTemperature" "K" "UnitEnergy" "kJ" "UnitPower" "kW" "WaterWeight" 10 "ReferenceTemperature" 293.15 "LiquidSpecificHeatCapacity" 4181.3 "LiquidThermalConductivity" 0.0006 "LiquidLatentHeat" 334000 "LiquidThermalExpansion" 0.00021 "LiquidTemperature" 293.15 "IceSpecificHeatCapacity" 2108 "IceThermalConductivity" 0.00222 "IceThermalExpansion" 5E-5 "VapourSpecificHeatCapacity" 1930 "VapourThermalConductivity" 2.5E-5 "VapourSpecificGasConstant" 461.5 "UseTemperatureDepWaterPropsTable" False "ModelType" "Plane strain" "ElementType" "15-Noded"
 _initializerectangular SoilContour -20 -30 10 10
+_save "E:\Plaxis 2D Projects\2D 01\Example 01.p2dx"
+_soilmat "SoilModel" "Mohr-Coulomb"
+_set SoilMat_1.Identification "Fill"
+_set Fill.SoilModel "Hardening Soil"
+_set Fill.gammaUnsat 18
+_set Fill.gammaSat 19
+_set Fill.E50Ref 10000
+_set Fill.phi 27
+_set Fill.cRef 1
+_set Fill.InterfaceStrengthDetermination "Manual"
+_set Fill.Rinter 0.33
+_soilmat "SoilModel" "Mohr-Coulomb"
+_set SoilMat_1.Identification "Dense Sand"
+_set DenseSand.SoilModel "Hardening Soil"
+_set DenseSand.gammaUnsat 19
+_set DenseSand.gammaSat 21
+_set DenseSand.E50Ref 60000
+_set DenseSand.phi 37
+_set DenseSand.psi 7
+_set DenseSand.InterfaceStrengthDetermination "Manual"
+_set DenseSand.Rinter 0.33
+_soilmat "SoilModel" "Mohr-Coulomb"
+_set SoilMat_1.Identification "Medium Dense Sand"
+_set MediumDenseSand.SoilModel "Hardening Soil"
+_set MediumDenseSand.gammaUnsat 17
+_set MediumDenseSand.gammaSat 20
+_set MediumDenseSand.E50Ref 30000
+_set MediumDenseSand.phi 35
+_set MediumDenseSand.psi 30
+_set MediumDenseSand.InterfaceStrengthDetermination "Manual"
+_set MediumDenseSand.Rinter 0.33
+_soilmat "SoilModel" "Mohr-Coulomb"
+_set SoilMat_1.Identification "Loose Sand"
+_set LooseSand.gammaUnsat 15
+_set LooseSand.gammaSat 18
+_set LooseSand.ERef 15000
+_set LooseSand.phi 30
+_set LooseSand.InterfaceStrengthDetermination "Manual"
+_set LooseSand.GapClosure False
+_set LooseSand.GapClosure True
+_set LooseSand.Rinter 0.33
+_soilmat "SoilModel" "Mohr-Coulomb"
+_set SoilMat_1.Identification "Firm Clay"
+_set FirmClay.gammaUnsat 18
+_set FirmClay.gammaSat 18
+_set FirmClay.ERef 7000
+_set FirmClay.cRef 3
+_set FirmClay.phi 27
+_set FirmClay.InterfaceStrengthDetermination "Manual"
+_set FirmClay.Rinter 0.33
+_soilmat "SoilModel" "Mohr-Coulomb"
+_set SoilMat_1.Identification "Stiff to Hard Clay"
+_set StiffToHardClay.SoilModel "Hardening Soil"
+_set StiffToHardClay.gammaUnsat 20
+_set StiffToHardClay.gammaSat 20
+_set StiffToHardClay.E50Ref 40000
+_set StiffToHardClay.cRef 5
+_set StiffToHardClay.phi 28
+_set StiffToHardClay.InterfaceStrengthDetermination "Manual"
+_set StiffToHardClay.Rinter 0.33
+_set LooseSand.SoilModel "Hardening Soil"
+_set LooseSand.SoilModel "Mohr-Coulomb"
+_set LooseSand.SoilModel "Hardening Soil"
+_set FirmClay.SoilModel "Hardening Soil"
+_soilmat "Identification" "Loose Sand" "SoilModel" "Hardening Soil" "Colour" 9025224 "gammaUnsat" 15 "gammaSat" 18 "phi" 30 "InterfaceStrengthDetermination" "Manual" "Rinter" 0.33
+_delete FirmClay
+_delete LooseSand
+_delete LooseSand_1
+_soilmat "SoilModel" "Mohr-Coulomb"
+_set SoilMat_1.Identification "Firm Clay"
+_set FirmClay.SoilModel "Hardening Soil"
+_set FirmClay.gammaUnsat 18
+_set FirmClay.gammaSat 18
+_set FirmClay.E50Ref 7000
+_set FirmClay.cRef 3
+_set FirmClay.phi 27
+_set FirmClay.InterfaceStrengthDetermination "Manual"
+_set FirmClay.Rinter 0.33
+_soilmat "SoilModel" "Mohr-Coulomb"
+_set SoilMat_1.Identification "Loose Sand"
+_set LooseSand.SoilModel "Hardening Soil"
+_set LooseSand.gammaUnsat 15
+_set LooseSand.gammaSat 18
+_set LooseSand.E50Ref 15000
+_set LooseSand.phi 30
+_set LooseSand.InterfaceStrengthDetermination "Manual"
+_set LooseSand.Rinter 0.33
+_borehole 0
+_set Borehole_1.Head -4
+_soillayer 0
+_set Soillayer_1.Soil.Material Fill
+_soillayer 0
+_set Soillayer_2.Soil.Material LooseSand
+_soillayer 0
+_set Soillayer_3.Soil.Material MediumDenseSand
+_soillayer 0
+_set Soillayer_4.Soil.Material DenseSand
+_soillayer 0
+_set Soillayer_5.Soil.Material FirmClay
+_soillayer 0
+_set Soillayer_6.Soil.Material StiffToHardClay
+_set Soillayer_1.Zones[0].Bottom -0.5
+_set Soillayer_2.Zones[0].Bottom -2
+_set Soillayer_3.Zones[0].Bottom -9
+_set Soillayer_4.Zones[0].Bottom -14
+_set Soillayer_5.Zones[0].Bottom -15
+_set Soillayer_6.Zones[0].Bottom -20
+_set Soillayer_5.PorePressure.Conditions "Dry"
+_set Soillayer_6.PorePressure.Conditions "Dry"
