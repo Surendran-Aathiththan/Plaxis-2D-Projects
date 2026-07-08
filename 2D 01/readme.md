@@ -64,5 +64,8 @@ psi = phi - 30  = 0
 interface : R inter : 0.33 [Roughness interaction]
 
 
+<img width="50%" src="https://github.com/user-attachments/assets/88709813-cee3-48f1-a28f-f9d35050c6cc" />
+<img width="50%" src="https://github.com/user-attachments/assets/d0ba0c32-92ef-4993-b0d2-f9650b690ce1" />
+
 
   
