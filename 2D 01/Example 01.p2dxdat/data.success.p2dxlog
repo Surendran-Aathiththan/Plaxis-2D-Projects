@@ -110,3 +110,10 @@ _set Soillayer_5.Zones[0].Bottom -15
 _set Soillayer_6.Zones[0].Bottom -20
 _set Soillayer_5.PorePressure.Conditions "Dry"
 _set Soillayer_6.PorePressure.Conditions "Dry"
+##~ running Plaxis2DXInput.exe 2025.1.3.5
+_gotostructures
+_plate (0 0) (0 -12)
+_set Point_2.y -11.8
+_posinterface (Line_1)
+_neginterface (Line_1)
+_point (0 -1.5)

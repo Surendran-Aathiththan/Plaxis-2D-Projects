@@ -68,4 +68,12 @@ interface : R inter : 0.33 [Roughness interaction]
 <img width="50%" src="https://github.com/user-attachments/assets/d0ba0c32-92ef-4993-b0d2-f9650b690ce1" />
 
 
+
+Shoring system (temporary structure used to support existing buildings):
+Structure > Create line > Create plate - For model sheet pile wall   12m depth
+Select Line > Create positive,negative interface  - To simulate soil interaction
+
+Create start point of ground anchor on shoring wall - depth 1.5m
+
+
   
