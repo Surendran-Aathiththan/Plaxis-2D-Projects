@@ -1,0 +1,47 @@
+﻿##~ running Plaxis2DXInput.exe 2025.1.3.5
+_setproperties "Title" "L01" "Company" "" "Comments" "" "UnitForce" "kN" "UnitLength" "m" "UnitTime" "day" "UnitTemperature" "K" "UnitEnergy" "kJ" "UnitPower" "kW" "WaterWeight" 10 "ReferenceTemperature" 293.15 "LiquidSpecificHeatCapacity" 4181.3 "LiquidThermalConductivity" 0.0006 "LiquidLatentHeat" 334000 "LiquidThermalExpansion" 0.00021 "LiquidTemperature" 293.15 "IceSpecificHeatCapacity" 2108 "IceThermalConductivity" 0.00222 "IceThermalExpansion" 5E-5 "VapourSpecificHeatCapacity" 1930 "VapourThermalConductivity" 2.5E-5 "VapourSpecificGasConstant" 461.5 "UseTemperatureDepWaterPropsTable" False "ModelType" "Axisymmetry" "ElementType" "15-Noded"
+_initializerectangular SoilContour 0 0 5 4
+_borehole 0
+_soillayer 0
+_set Soillayer_1.Zones[0].Top 4
+_set Borehole_1.Head 2
+_soilmat "SoilModel" "Mohr-Coulomb"
+_set SoilMat_1.Identification "Sand"
+_set Sand.gammaUnsat 17
+_set Sand.gammaSat 20
+_set Sand.ERef 13000
+_set Sand.nu 0.3
+_set Sand.cRef 1
+_set Sand.phi 30
+_gotostructures
+_linedispl (0 4) (1 4)
+_set Line_1.LineDisplacement.Displacement_x "Fixed"
+_set Line_1.LineDisplacement.uy_start -0.05
+_gotosoil
+_gotostructures
+_mergeequivalents Geometry
+_gotomesh
+_mesh 0.06
+_gotoflow
+_gotostages
+_gotomesh
+_viewmesh
+_gotoflow
+_gotostages
+_phase InitialPhase
+_set Model.CurrentPhase Phase_1
+_activate LineDisplacements Phase_1
+_set Model.CurrentPhase InitialPhase
+_gotostructures
+_gotosoil
+_setmaterial (Soil_1) Sand
+_gotostructures
+_mergeequivalents Geometry
+_gotomesh
+_mesh 0.06
+_viewmesh
+_gotoflow
+_set Model.CurrentPhase Phase_1
+_gotostages
+_calculate
+_view Phase_1

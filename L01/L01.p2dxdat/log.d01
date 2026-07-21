@@ -1,0 +1,729 @@
+[General]
+Version=0
+CalcMode=Classic
+CalcType=
+ErrorCode=0
+ErrorMsg=OK
+StepsCount=180
+ErrorParams=
+DateTime=21-07-2026 18:40
+[Step001]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step002]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step003]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step004]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step005]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step006]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step007]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step008]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step009]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step010]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step011]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step012]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step013]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step014]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step015]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step016]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step017]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step018]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step019]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step020]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step021]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step022]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step023]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step024]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step025]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step026]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step027]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step028]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step029]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step030]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step031]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step032]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step033]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step034]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step035]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step036]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step037]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step038]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step039]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step040]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step041]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step042]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step043]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step044]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step045]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step046]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step047]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step048]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step049]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step050]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step051]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step052]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step053]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step054]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step055]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step056]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step057]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step058]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step059]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step060]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step061]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step062]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step063]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step064]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step065]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step066]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step067]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step068]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step069]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step070]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step071]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step072]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step073]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step074]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step075]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step076]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step077]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step078]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step079]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step080]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step081]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step082]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step083]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step084]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step085]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step086]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step087]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step088]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step089]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step090]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step091]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step092]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step093]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step094]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step095]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step096]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step097]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step098]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step099]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step100]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step101]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step102]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step103]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step104]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step105]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step106]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step107]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step108]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step109]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step110]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step111]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step112]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step113]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step114]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step115]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step116]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step117]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step118]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step119]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step120]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step121]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step122]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step123]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step124]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step125]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step126]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step127]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step128]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step129]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step130]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step131]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step132]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step133]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step134]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step135]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step136]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step137]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step138]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step139]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step140]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step141]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step142]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step143]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step144]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step145]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step146]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step147]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step148]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step149]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step150]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step151]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step152]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step153]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step154]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step155]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step156]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step157]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step158]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step159]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step160]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step161]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step162]
+DateTime=21-07-2026 18:39
+LeadNumber=-1
+LeadFinished=False
+[Step163]
+DateTime=21-07-2026 18:40
+LeadNumber=-1
+LeadFinished=False
+[Step164]
+DateTime=21-07-2026 18:40
+LeadNumber=-1
+LeadFinished=False
+[Step165]
+DateTime=21-07-2026 18:40
+LeadNumber=-1
+LeadFinished=False
+[Step166]
+DateTime=21-07-2026 18:40
+LeadNumber=-1
+LeadFinished=False
+[Step167]
+DateTime=21-07-2026 18:40
+LeadNumber=-1
+LeadFinished=False
+[Step168]
+DateTime=21-07-2026 18:40
+LeadNumber=-1
+LeadFinished=False
+[Step169]
+DateTime=21-07-2026 18:40
+LeadNumber=-1
+LeadFinished=False
+[Step170]
+DateTime=21-07-2026 18:40
+LeadNumber=-1
+LeadFinished=False
+[Step171]
+DateTime=21-07-2026 18:40
+LeadNumber=-1
+LeadFinished=False
+[Step172]
+DateTime=21-07-2026 18:40
+LeadNumber=-1
+LeadFinished=False
+[Step173]
+DateTime=21-07-2026 18:40
+LeadNumber=-1
+LeadFinished=False
+[Step174]
+DateTime=21-07-2026 18:40
+LeadNumber=-1
+LeadFinished=False
+[Step175]
+DateTime=21-07-2026 18:40
+LeadNumber=-1
+LeadFinished=False
+[Step176]
+DateTime=21-07-2026 18:40
+LeadNumber=-1
+LeadFinished=False
+[Step177]
+DateTime=21-07-2026 18:40
+LeadNumber=-1
+LeadFinished=False
+[Step178]
+DateTime=21-07-2026 18:40
+LeadNumber=-1
+LeadFinished=False
+[Step179]
+DateTime=21-07-2026 18:40
+LeadNumber=-1
+LeadFinished=False
+[Step180]
+DateTime=21-07-2026 18:40
+LeadNumber=-1
+LeadFinished=False
