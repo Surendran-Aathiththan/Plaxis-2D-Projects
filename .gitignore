@@ -1,0 +1,44 @@
+# --- Engineering software temp, backup and result files ---
+# Add this file to each repository to keep it clean.
+# Model files (.EDB, .std, .rvt, .dwg, .p2dx, .mpp) are NOT ignored.
+
+# AutoCAD / Civil 3D
+*.bak
+*.dwl
+*.dwl2
+*.sv$
+*.pcp
+plot.log
+ErrorReports/
+
+# Revit numbered backups (Planning.0033.rvt etc.)
+*.[0-9][0-9][0-9][0-9].rvt
+*.[0-9][0-9][0-9][0-9].rfa
+
+# ETABS / SAFE analysis output and backups (regenerated when you run the analysis)
+*.$et
+*.$sf
+*.ebk
+*.K_*
+*.Y
+*.Y$$
+*.Y0*
+*.Y_*
+*.msh
+*.tlog
+*.LOG
+*.OUT
+*.WRN
+*.ico
+
+# STAAD.Pro analysis output and backups
+*.sbk
+*.ANL
+*.bmd
+*.scn
+*.slg
+
+# OS clutter
+Thumbs.db
+.DS_Store
+desktop.ini
