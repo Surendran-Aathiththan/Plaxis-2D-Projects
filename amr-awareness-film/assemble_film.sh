@@ -28,8 +28,8 @@ OUT="${2:-output/AMR_Awareness_Film_1080p.mp4}"
 SRT="subtitles/amr_film_en.srt"
 WORK="output/.work"
 
-# Scene lengths in seconds (00:00-00:30, 00:30-00:45, ... 02:35-03:00).
-DUR=(30 15 15 35 20 40 25)
+# Scene lengths in seconds (00:00-00:30, 00:30-00:45, 00:45-01:00, 01:00-01:40, 01:40-01:55, 01:55-02:35, 02:35-03:00).
+DUR=(30 15 15 40 15 40 25)
 TOTAL=180
 FPS=25
 

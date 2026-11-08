@@ -1,3 +1,5 @@
 clips/
 audio/
 output/
+build/
+__pycache__/

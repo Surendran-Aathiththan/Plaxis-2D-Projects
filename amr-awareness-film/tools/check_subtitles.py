@@ -2,7 +2,7 @@
 """Check the SRT: numbering, overlaps, cues crossing scene cuts, line length and reading speed."""
 import re, sys
 path = sys.argv[1] if len(sys.argv) > 1 else "subtitles/amr_film_en.srt"
-CUTS = [0, 30, 45, 60, 95, 115, 155, 180]          # scene boundaries (s)
+CUTS = [0, 30, 45, 60, 100, 115, 155, 180]          # scene boundaries (s)
 MAX_LINE, MAX_CPS = 50, 20
 def sec(s): h, m, rest = s.split(":"); return int(h)*3600 + int(m)*60 + float(rest.replace(",", "."))
 blocks = [b for b in open(path, encoding="utf-8").read().strip().split("\n\n")]

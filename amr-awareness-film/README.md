@@ -2,7 +2,16 @@
 
 A 3-minute (180 s), 1920×1080 animated educational short for **Antimicrobial Resistance Awareness Week**, with Sri Lankan Tamil dialogue and English subtitles.
 
-This folder is the **production kit**: everything needed to make the film and assemble it with frame-exact timing. The 3D animation and the Tamil voice performances are not in this repository. They have to be produced with a video-generation or 3D animation tool and real voice actors, following these documents.
+**Rendered film:** [`AMR_Awareness_Film_1080p.mp4`](AMR_Awareness_Film_1080p.mp4). It is 180 s, 1920×1080, 25 fps, H.264 video with AAC stereo audio at 48 kHz, loudness −15.5 LUFS. It is a complete **2D animated** version of the film, generated entirely by code in [`render/`](render):
+
+- **Picture:** vector cartoon animation (skia), with characters that blink, gesture, walk and cycle. Mouths are driven by the loudness of the Tamil audio, so lip movement follows the speech.
+- **Voices:** every Tamil line from the screenplay, spoken by Microsoft neural Tamil voices: Sri Lankan (ta-LK Kumar, Saranya), Indian, Malaysian and Singaporean Tamil. Each character has its own voice and pitch. The final slogan is in English, as in the screenplay.
+- **Subtitles:** 41 English cues, burned in, timed to the real audio.
+- **Music and sound effects:** synthesised to the cue sheets (playful → villain swing → hospital piano → inspiring finale), with music ducked under the dialogue.
+
+This is not the 3D film with human voice actors described in the brief. Producing that still needs a 3D animation or video-generation tool and real voice actors. The shot list, production bible and assembly script below are the kit for it, and the rendered film works as a full-length animatic or as a usable awareness video in its own right.
+
+Rebuild everything from scratch with `./build_film.sh`. It takes about 8 minutes on 4 CPU cores and needs `pip install -r render/requirements.txt`, ffmpeg, libegl1, and network access to `speech.platform.bing.com` for the voices.
 
 | File | What it is |
 |---|---|
@@ -12,6 +21,13 @@ This folder is the **production kit**: everything needed to make the film and as
 | [assemble_film.sh](assemble_film.sh) | Joins the 7 scene clips into the final 180 s film, mixes the audio stems (music ducked under dialogue, loudness normalised to −16 LUFS) and burns in the subtitles |
 | [tools/check_subtitles.py](tools/check_subtitles.py) | Checks the subtitles for overlaps, cues crossing scene cuts, line length and reading speed |
 | [tools/make_test_clips.sh](tools/make_test_clips.sh) | Makes placeholder clips and test audio to dry-run the assembly |
+| [build_film.sh](build_film.sh) | Builds the rendered film end to end |
+| `render/script_data.py` | All dialogue (Tamil + English) split into subtitle-sized segments, voice casting per character |
+| `render/make_voices.py` | Tamil speech synthesis, fits lines into scene timing, writes the dialogue stem, the subtitles and the lip-sync timeline |
+| `render/make_audio.py` | Music and sound-effects synthesis |
+| `render/characters.py`, `render/microbes.py` | Character rig and microscopic cast |
+| `render/scenes_a.py`, `render/scenes_b.py`, `render/scenes_c.py` | Scenes 1–3, Scene 4, Scenes 5–7 |
+| `render/render_scenes.py` | Renders `clips/scene1..7.mp4` in parallel (`--still T out.png` renders one frame) |
 
 ## Scene map
 
@@ -20,8 +36,8 @@ This folder is the **production kit**: everything needed to make the film and as
 | 1 | School: the beginning | 00:00–00:30 | 30 s |
 | 2 | Cycling to the pharmacy | 00:30–00:45 | 15 s |
 | 3 | Pharmacy | 00:45–01:00 | 15 s |
-| 4 | Inside the body: the bacteria strike back | 01:00–01:35 | 35 s |
-| 5 | Hospital admission | 01:35–01:55 | 20 s |
+| 4 | Inside the body: the bacteria strike back | 01:00–01:40 | 40 s |
+| 5 | Hospital admission | 01:40–01:55 | 15 s |
 | 6 | Consultant physician and consultant microbiologist | 01:55–02:35 | 40 s |
 | 7 | The final message and end card | 02:35–03:00 | 25 s |
 
@@ -54,6 +70,8 @@ rm -r audio                                        # remove the test stems befor
 
 This was run on the kit. The output was 180.000 s, 1920×1080, 25 fps, H.264/AAC 48 kHz stereo at −15.8 LUFS integrated. Scene cuts landed on 30/45/60/95/115/155 s, and the short Scene 5 test clip was correctly held to 20 s.
 
+Scenes 4 and 5 use option A below. The scripted Scene 4 dialogue is about 42 s of natural Tamil speech, which cannot fit in 35 s, so Scene 4 runs 01:00–01:40 and Scene 5 runs 01:40–01:55. Every other boundary matches the brief. The times in SHOT_LIST.md are the original plan. `subtitles/amr_film_en.srt` holds the timing actually used in the rendered film.
+
 ## Timing pressure (decide before recording)
 
 `tools/check_subtitles.py` flags 11 of 41 cues as reading faster than 20 characters per second, almost all in **Scene 4** (about 31 s of dialogue in 35 s) and the long doctor explanations in **Scene 6**. Keeping the brief's exact timestamps works only if those lines are delivered briskly. If the recorded takes run long, pick one option:
@@ -74,4 +92,4 @@ The supplied dialogue is scientifically sound. A few points were handled in the 
 - **Pharmacy scene:** dispensing without a prescription is shown with a darker light change and an ominous music sting, so it doesn't read as recommended practice.
 - **Final slogan:** it is spoken in English, as in the screenplay. The on-screen typography and the subtitle carry the same words.
 
-Media folders (`clips/`, `audio/`, `output/`) are git-ignored, so large video files stay out of the repository.
+Working folders (`clips/`, `audio/`, `output/`, `build/`) are git-ignored. Only the finished film is committed.
